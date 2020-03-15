@@ -6,7 +6,7 @@ const SearchForm = ()=>{
 
     let form = `
         <div  class='searchForm'>
-            <img id="logo-field"  class="logo-field" src="../../../public/logoApiko.jpg" alt="Image">
+            <img id="logo-field"  class="logo-field" src="../../../logoApiko.jpg" alt="Image">
             <input id="search-field" class="form-control" type="text"/>
             <button id="button-search-form" class="btn btn-dark">Saerch</button>
         </div>
