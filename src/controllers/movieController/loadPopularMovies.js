@@ -1,6 +1,6 @@
 import addToContainerMovie from './untils/addToContainerMovieController'
 import ModelMovie from '../../models/movie'
-
+import _ from 'lodash';
 
 const loadPopularMovies = async (e) => {
     let moviesElements = document.getElementsByClassName('movie');

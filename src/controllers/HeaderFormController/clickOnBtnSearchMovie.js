@@ -1,6 +1,7 @@
 import toHTML from '../../untils/convert'
 import ModelMovie from '../../models/movie';
 import addToContainerMovie from '../movieController/untils/addToContainerMovieController';
+import _ from 'lodash';
 
 const clickOnBtnSearchMovie = async(e)=>{
 
